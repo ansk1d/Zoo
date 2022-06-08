@@ -20,5 +20,4 @@ class Zoo:
             return self
 
 
-zoo1 = Zoo("John's Zoo").add_tiger("Shere Khan").add_lion("Nala").add_lion("Simba").add_tiger("Rajah").print_all_info().display_info()
-
+zoo1 = Zoo("John's Zoo").add_tiger("Shere Khan").add_lion("Nala").add_lion("Simba").add_tiger("Rajah").print_all_info().animals[1].display_info()
